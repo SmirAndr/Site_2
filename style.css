@@ -8,6 +8,14 @@
 }
 
 
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+    url('/fonts/Raleway-Bold.ttf') ;
+    
+
+}
+
 
 body {
     margin: 0;
@@ -255,7 +263,6 @@ body {
     border-bottom: #EDE0D5 0.1em solid;
     position: relative;
     bottom: 2px;
-    width: 100%;
 }
 
 .container_4 {
@@ -316,8 +323,8 @@ margin-top: 100px;
 
 .Main_2_img {
     position: relative;
-    bottom: 239px;
-    left: 250px;
+    bottom: 230px;
+    left: 488px;
 }
 
 .main_production {
@@ -466,6 +473,7 @@ margin-top: 100px;
     position: relative;
     bottom: 100px;
     left: 20px;
+    cursor: pointer;
 }
 
 .catalog_card_small h1{
@@ -943,7 +951,7 @@ margin-top: 100px;
 .footer_up_image{
     position: absolute;
     top: 6490px;
-    left: 985px;
+    left: 968px;
     
 }
 
@@ -968,3 +976,11 @@ margin-top: 100px;
     height: 2px;
 }
 
+.Grampus {
+    position: relative;
+    left: 960px;
+    top: 80px;
+    width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
